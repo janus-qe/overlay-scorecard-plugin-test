@@ -1,17 +1,13 @@
 ---
-# Component with both GitHub and Jira Scorecards
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: all-scorecards
+  name: dependabot-scorecard-only
   annotations:
     github.com/project-slug: janus-qe/overlay-scorecard-plugin-test
     backstage.io/source-location: url:https://github.com/janus-qe/overlay-scorecard-plugin-test
-    jira/project-key: RSPT
-    openssf/scorecard-location: https://api.securityscorecards.dev/projects/github.com/ossf/scorecard
-    scorecard.io/disabled-metrics: openssf.maintained
     github.com/dependabot: "true"
 spec:
   type: service
-  owner: user:test1
-  lifecycle: production
+  owner: group:development/guests
+  lifecycle: experimental
