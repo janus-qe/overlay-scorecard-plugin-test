@@ -1,13 +1,11 @@
 ---
-# Component with GitHub Scorecard only
+# Component with filecheck Scorecard only
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: github-scorecard-only
+  name: filecheck-scorecard-github
   annotations:
-    github.com/project-slug: janus-qe/overlay-scorecard-plugin-test
     backstage.io/source-location: url:https://github.com/janus-qe/overlay-scorecard-plugin-test
-    scorecard.io/disabled-metrics: filecheck.readme,filecheck.license
 spec:
   type: service
   owner: user:test1

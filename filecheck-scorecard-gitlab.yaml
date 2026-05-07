@@ -1,0 +1,12 @@
+---
+# Component with filecheck Scorecard only
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: filecheck-scorecard-gitlab
+  annotations:
+    backstage.io/source-location: url:https://gitlab.com/rhdh-qe-test/react-scaffold
+spec:
+  type: service
+  owner: user:test1
+  lifecycle: production

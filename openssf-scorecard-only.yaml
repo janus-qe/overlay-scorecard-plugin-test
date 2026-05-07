@@ -5,7 +5,7 @@ metadata:
   name: openssf-scorecard-only
   annotations:
     openssf/scorecard-location: https://api.securityscorecards.dev/projects/github.com/ossf/scorecard
-    scorecard.io/disabled-metrics: openssf.maintained
+    scorecard.io/disabled-metrics: openssf.maintained,filecheck.readme,filecheck.license
 spec:
   type: service
   owner: group:development/guests

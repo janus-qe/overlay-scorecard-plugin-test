@@ -8,6 +8,7 @@ metadata:
     github.com/project-slug: dzemanov/react-app-t1
     backstage.io/source-location: url:https://github.com/dzemanov/react-app-t1
     jira/project-key: RSPT
+    scorecard.io/disabled-metrics: filecheck.readme,filecheck.license
 spec:
   type: service
   owner: user:test1
