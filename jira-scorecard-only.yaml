@@ -6,6 +6,7 @@ metadata:
   name: jira-scorecard-only
   annotations:
     jira/project-key: RSPT
+    scorecard.io/disabled-metrics: filecheck.readme,filecheck.license
 spec:
   type: service
   owner: user:test1
