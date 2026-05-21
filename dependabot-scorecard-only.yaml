@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dependabot-scorecard-only
+  annotations:
+    github.com/project-slug: janus-qe/overlay-scorecard-plugin-test
+    backstage.io/source-location: url:https://github.com/janus-qe/overlay-scorecard-plugin-test
+    github.com/dependabot: "true"
+spec:
+  type: service
+  owner: group:development/guests
+  lifecycle: experimental
