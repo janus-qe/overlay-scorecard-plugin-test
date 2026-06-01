@@ -4,7 +4,7 @@ kind: Component
 metadata:
   name: dependabot-scorecard-only
   annotations:
-    github.com/project-slug: janus-qe/overlay-scorecard-plugin-test
+    github.com/project-slug: janus-qe/dependabot-alerts
     backstage.io/source-location: url:https://github.com/janus-qe/overlay-scorecard-plugin-test
     github.com/dependabot: "true"
 spec:
