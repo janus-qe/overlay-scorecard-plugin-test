@@ -5,7 +5,7 @@ metadata:
   name: dependabot-scorecard-only
   annotations:
     github.com/project-slug: janus-qe/dependabot-alerts
-    backstage.io/source-location: url:https://github.com/janus-qe/overlay-scorecard-plugin-test
+    backstage.io/source-location: url:https://github.com/janus-qe/dependabot-alerts
     github.com/dependabot: "true"
 spec:
   type: service
