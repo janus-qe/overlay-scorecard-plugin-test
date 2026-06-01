@@ -10,7 +10,7 @@ metadata:
     jira/project-key: RSPT
     openssf/scorecard-location: https://api.securityscorecards.dev/projects/github.com/ossf/scorecard
     scorecard.io/disabled-metrics: openssf.maintained
-    github.com/dependabot: "true"
+    github.com/dependabot: "false"
 spec:
   type: service
   owner: user:test1
