@@ -1,5 +1,6 @@
 ---
 # Component with both GitHub and Jira Scorecards
+# dummy comment for test pr
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
