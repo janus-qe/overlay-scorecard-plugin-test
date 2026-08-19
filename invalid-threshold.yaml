@@ -7,7 +7,7 @@ metadata:
   annotations:
     github.com/project-slug: janus-qe/overlay-scorecard-plugin-test
     backstage.io/source-location: url:https://github.com/janus-qe/overlay-scorecard-plugin-test
-    scorecard.io/github.openPRs.thresholds.rules.error: '>50d'
+    scorecard.io/github.open_prs.thresholds.rules.critical: ">70d"
     jira/project-key: RSPT
 spec:
   type: service
