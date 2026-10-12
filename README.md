@@ -1,6 +1,7 @@
 # overlay-scorecard-plugin-test
 
 This repository contains fixtures for end-to-end tests related to the scorecard plugin.
+Dummy extended description.
 
 > **Note:** This README is present for the purpose of the filecheck e2e test for the filecheck scorecard backend module.
 
